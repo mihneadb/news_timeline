@@ -24,7 +24,7 @@ function renderStory(story) {
     });
 }
 
-$.getJSON("/data.json")
+$.getJSON("data.json")
     .done(function (data) {
         data.map(renderStory);
     });
