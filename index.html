@@ -36,7 +36,9 @@
 
         <div class="photos">
             {{#each photos}}
-                <img src="{{ photo_url }}" alt=""/>
+                <a href="{{ source_url }}">
+                    <img src="{{ photo_url }}" alt=""/>
+                </a>
             {{/each}}
         </div>
 
