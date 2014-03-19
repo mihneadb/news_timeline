@@ -16,11 +16,13 @@ function renderStory(story) {
     $('.container').append($rendered);
 
     var $photos = $rendered.find('.photos');
-    $photos.masonry({
-        columnWidth: 256,
-        itemSelector: 'img',
-        isFitWidth: true,
-        gutter: 1
+    $photos.imagesLoaded(function () {
+        $photos.masonry({
+            columnWidth: 256,
+            itemSelector: 'img',
+            isFitWidth: true,
+            gutter: 1
+        });
     });
 }
 
