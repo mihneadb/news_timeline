@@ -1,0 +1,28 @@
+html, body {
+    background-image: url('../img/bg.png');
+    padding: 20px;
+}
+
+img {
+    border-radius: 2%;
+}
+
+.photos img {
+    width: 250px;
+    margin-top: 8px;
+}
+
+.photos {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.story {
+    background: #fff;
+    margin-bottom: 40px;
+
+    box-shadow: 2px 2px 5px #aaa;
+    border-radius: 2%;
+
+    padding: 25px;
+}
