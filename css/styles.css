@@ -1,6 +1,7 @@
 html, body {
     background-image: url('../img/bg.png');
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 img {
